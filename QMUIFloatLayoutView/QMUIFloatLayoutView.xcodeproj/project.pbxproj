@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		446D00B11E4D9A4C00B58F36 /* 搜索标签样式流水布局.png in Resources */ = {isa = PBXBuildFile; fileRef = 446D00B01E4D9A4C00B58F36 /* 搜索标签样式流水布局.png */; };
 		44C9D4FC1E4D72CD00F549AA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D4FB1E4D72CD00F549AA /* main.m */; };
 		44C9D4FF1E4D72CD00F549AA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D4FE1E4D72CD00F549AA /* AppDelegate.m */; };
 		44C9D5021E4D72CD00F549AA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D5011E4D72CD00F549AA /* ViewController.m */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		181B9D2213DD44202F212525 /* Pods_QMUIFloatLayoutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUIFloatLayoutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		446D00B01E4D9A4C00B58F36 /* 搜索标签样式流水布局.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "搜索标签样式流水布局.png"; sourceTree = "<group>"; };
 		44C9D4F71E4D72CD00F549AA /* QMUIFloatLayoutView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMUIFloatLayoutView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C9D4FB1E4D72CD00F549AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44C9D4FD1E4D72CD00F549AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -88,6 +90,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		446D00AF1E4D9A1400B58F36 /* ScreenShots */ = {
+			isa = PBXGroup;
+			children = (
+				446D00B01E4D9A4C00B58F36 /* 搜索标签样式流水布局.png */,
+			);
+			name = ScreenShots;
+			path = Base.lproj/ScreenShots;
+			sourceTree = "<group>";
+		};
 		44C9D4EE1E4D72CD00F549AA = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +126,7 @@
 				44C9D5011E4D72CD00F549AA /* ViewController.m */,
 				44C9D64D1E4D7AB400F549AA /* Modules */,
 				44C9D5031E4D72CD00F549AA /* Main.storyboard */,
+				446D00AF1E4D9A1400B58F36 /* ScreenShots */,
 				44C9D64B1E4D752C00F549AA /* Images.xcassets */,
 				44C9D5061E4D72CD00F549AA /* Assets.xcassets */,
 				44C9D5081E4D72CD00F549AA /* LaunchScreen.storyboard */,
@@ -268,6 +280,7 @@
 				44C9D50A1E4D72CD00F549AA /* LaunchScreen.storyboard in Resources */,
 				44C9D64C1E4D752C00F549AA /* Images.xcassets in Resources */,
 				44C9D5071E4D72CD00F549AA /* Assets.xcassets in Resources */,
+				446D00B11E4D9A4C00B58F36 /* 搜索标签样式流水布局.png in Resources */,
 				44C9D5051E4D72CD00F549AA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
