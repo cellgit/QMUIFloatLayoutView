@@ -13,9 +13,23 @@
 		44C9D5051E4D72CD00F549AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C9D5031E4D72CD00F549AA /* Main.storyboard */; };
 		44C9D5071E4D72CD00F549AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C9D5061E4D72CD00F549AA /* Assets.xcassets */; };
 		44C9D50A1E4D72CD00F549AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44C9D5081E4D72CD00F549AA /* LaunchScreen.storyboard */; };
+		44C9D64C1E4D752C00F549AA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C9D64B1E4D752C00F549AA /* Images.xcassets */; };
+		44C9D6681E4D7AB400F549AA /* QMUIConfigurationTemplate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6511E4D7AB400F549AA /* QMUIConfigurationTemplate.m */; };
+		44C9D6691E4D7AB400F549AA /* QDCommonGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6541E4D7AB400F549AA /* QDCommonGridViewController.m */; };
+		44C9D66A1E4D7AB400F549AA /* QDCommonGroupListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6561E4D7AB400F549AA /* QDCommonGroupListViewController.m */; };
+		44C9D66B1E4D7AB400F549AA /* QDCommonListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6581E4D7AB400F549AA /* QDCommonListViewController.m */; };
+		44C9D66C1E4D7AB400F549AA /* QDCommonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D65A1E4D7AB400F549AA /* QDCommonTableViewController.m */; };
+		44C9D66D1E4D7AB400F549AA /* QDCommonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D65C1E4D7AB400F549AA /* QDCommonViewController.m */; };
+		44C9D66E1E4D7AB400F549AA /* QDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D65E1E4D7AB400F549AA /* QDNavigationController.m */; };
+		44C9D66F1E4D7AB400F549AA /* QDTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6601E4D7AB400F549AA /* QDTabBarViewController.m */; };
+		44C9D6701E4D7AB400F549AA /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6631E4D7AB400F549AA /* QDCommonUI.m */; };
+		44C9D6711E4D7AB400F549AA /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6651E4D7AB400F549AA /* QDUIHelper.m */; };
+		44C9D6721E4D7AB400F549AA /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6671E4D7AB400F549AA /* UIImageEffects.m */; };
+		5E225ED394D33B8D05ECBC48 /* Pods_QMUIFloatLayoutView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B9D2213DD44202F212525 /* Pods_QMUIFloatLayoutView.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181B9D2213DD44202F212525 /* Pods_QMUIFloatLayoutView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QMUIFloatLayoutView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C9D4F71E4D72CD00F549AA /* QMUIFloatLayoutView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMUIFloatLayoutView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C9D4FB1E4D72CD00F549AA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44C9D4FD1E4D72CD00F549AA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +40,31 @@
 		44C9D5061E4D72CD00F549AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		44C9D5091E4D72CD00F549AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		44C9D50B1E4D72CD00F549AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44C9D64B1E4D752C00F549AA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		44C9D6501E4D7AB400F549AA /* QMUIConfigurationTemplate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QMUIConfigurationTemplate.h; sourceTree = "<group>"; };
+		44C9D6511E4D7AB400F549AA /* QMUIConfigurationTemplate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QMUIConfigurationTemplate.m; sourceTree = "<group>"; };
+		44C9D6531E4D7AB400F549AA /* QDCommonGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGridViewController.h; sourceTree = "<group>"; };
+		44C9D6541E4D7AB400F549AA /* QDCommonGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGridViewController.m; sourceTree = "<group>"; };
+		44C9D6551E4D7AB400F549AA /* QDCommonGroupListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonGroupListViewController.h; sourceTree = "<group>"; };
+		44C9D6561E4D7AB400F549AA /* QDCommonGroupListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonGroupListViewController.m; sourceTree = "<group>"; };
+		44C9D6571E4D7AB400F549AA /* QDCommonListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonListViewController.h; sourceTree = "<group>"; };
+		44C9D6581E4D7AB400F549AA /* QDCommonListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonListViewController.m; sourceTree = "<group>"; };
+		44C9D6591E4D7AB400F549AA /* QDCommonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonTableViewController.h; sourceTree = "<group>"; };
+		44C9D65A1E4D7AB400F549AA /* QDCommonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonTableViewController.m; sourceTree = "<group>"; };
+		44C9D65B1E4D7AB400F549AA /* QDCommonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonViewController.h; sourceTree = "<group>"; };
+		44C9D65C1E4D7AB400F549AA /* QDCommonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonViewController.m; sourceTree = "<group>"; };
+		44C9D65D1E4D7AB400F549AA /* QDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDNavigationController.h; sourceTree = "<group>"; };
+		44C9D65E1E4D7AB400F549AA /* QDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDNavigationController.m; sourceTree = "<group>"; };
+		44C9D65F1E4D7AB400F549AA /* QDTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDTabBarViewController.h; sourceTree = "<group>"; };
+		44C9D6601E4D7AB400F549AA /* QDTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDTabBarViewController.m; sourceTree = "<group>"; };
+		44C9D6621E4D7AB400F549AA /* QDCommonUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDCommonUI.h; sourceTree = "<group>"; };
+		44C9D6631E4D7AB400F549AA /* QDCommonUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDCommonUI.m; sourceTree = "<group>"; };
+		44C9D6641E4D7AB400F549AA /* QDUIHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDUIHelper.h; sourceTree = "<group>"; };
+		44C9D6651E4D7AB400F549AA /* QDUIHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDUIHelper.m; sourceTree = "<group>"; };
+		44C9D6661E4D7AB400F549AA /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
+		44C9D6671E4D7AB400F549AA /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
+		C2B5970E39517892BE49B3D5 /* Pods-QMUIFloatLayoutView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUIFloatLayoutView.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView.release.xcconfig"; sourceTree = "<group>"; };
+		D7AEFD8F60A9F1186FAD0C48 /* Pods-QMUIFloatLayoutView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUIFloatLayoutView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +72,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E225ED394D33B8D05ECBC48 /* Pods_QMUIFloatLayoutView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0201D1F376A02D6225BCF7C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				181B9D2213DD44202F212525 /* Pods_QMUIFloatLayoutView.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		44C9D4EE1E4D72CD00F549AA = {
 			isa = PBXGroup;
 			children = (
 				44C9D4F91E4D72CD00F549AA /* QMUIFloatLayoutView */,
 				44C9D4F81E4D72CD00F549AA /* Products */,
+				653A85A208423E7F3494A61A /* Pods */,
+				0201D1F376A02D6225BCF7C3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,7 +112,9 @@
 				44C9D4FE1E4D72CD00F549AA /* AppDelegate.m */,
 				44C9D5001E4D72CD00F549AA /* ViewController.h */,
 				44C9D5011E4D72CD00F549AA /* ViewController.m */,
+				44C9D64D1E4D7AB400F549AA /* Modules */,
 				44C9D5031E4D72CD00F549AA /* Main.storyboard */,
+				44C9D64B1E4D752C00F549AA /* Images.xcassets */,
 				44C9D5061E4D72CD00F549AA /* Assets.xcassets */,
 				44C9D5081E4D72CD00F549AA /* LaunchScreen.storyboard */,
 				44C9D50B1E4D72CD00F549AA /* Info.plist */,
@@ -79,6 +131,76 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		44C9D64D1E4D7AB400F549AA /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D64E1E4D7AB400F549AA /* Common */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		44C9D64E1E4D7AB400F549AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D64F1E4D7AB400F549AA /* Configuration */,
+				44C9D6521E4D7AB400F549AA /* Controllers */,
+				44C9D6611E4D7AB400F549AA /* Utils */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		44C9D64F1E4D7AB400F549AA /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D6501E4D7AB400F549AA /* QMUIConfigurationTemplate.h */,
+				44C9D6511E4D7AB400F549AA /* QMUIConfigurationTemplate.m */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		44C9D6521E4D7AB400F549AA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D6531E4D7AB400F549AA /* QDCommonGridViewController.h */,
+				44C9D6541E4D7AB400F549AA /* QDCommonGridViewController.m */,
+				44C9D6551E4D7AB400F549AA /* QDCommonGroupListViewController.h */,
+				44C9D6561E4D7AB400F549AA /* QDCommonGroupListViewController.m */,
+				44C9D6571E4D7AB400F549AA /* QDCommonListViewController.h */,
+				44C9D6581E4D7AB400F549AA /* QDCommonListViewController.m */,
+				44C9D6591E4D7AB400F549AA /* QDCommonTableViewController.h */,
+				44C9D65A1E4D7AB400F549AA /* QDCommonTableViewController.m */,
+				44C9D65B1E4D7AB400F549AA /* QDCommonViewController.h */,
+				44C9D65C1E4D7AB400F549AA /* QDCommonViewController.m */,
+				44C9D65D1E4D7AB400F549AA /* QDNavigationController.h */,
+				44C9D65E1E4D7AB400F549AA /* QDNavigationController.m */,
+				44C9D65F1E4D7AB400F549AA /* QDTabBarViewController.h */,
+				44C9D6601E4D7AB400F549AA /* QDTabBarViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		44C9D6611E4D7AB400F549AA /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				44C9D6621E4D7AB400F549AA /* QDCommonUI.h */,
+				44C9D6631E4D7AB400F549AA /* QDCommonUI.m */,
+				44C9D6641E4D7AB400F549AA /* QDUIHelper.h */,
+				44C9D6651E4D7AB400F549AA /* QDUIHelper.m */,
+				44C9D6661E4D7AB400F549AA /* UIImageEffects.h */,
+				44C9D6671E4D7AB400F549AA /* UIImageEffects.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		653A85A208423E7F3494A61A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7AEFD8F60A9F1186FAD0C48 /* Pods-QMUIFloatLayoutView.debug.xcconfig */,
+				C2B5970E39517892BE49B3D5 /* Pods-QMUIFloatLayoutView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 44C9D50E1E4D72CD00F549AA /* Build configuration list for PBXNativeTarget "QMUIFloatLayoutView" */;
 			buildPhases = (
+				8461204DF445E38518B4F19A /* [CP] Check Pods Manifest.lock */,
 				44C9D4F31E4D72CD00F549AA /* Sources */,
 				44C9D4F41E4D72CD00F549AA /* Frameworks */,
 				44C9D4F51E4D72CD00F549AA /* Resources */,
+				E18D38BEB41FB6B90CB7C388 /* [CP] Embed Pods Frameworks */,
+				18A4BF769261DE8F5BDCFB0D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -139,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				44C9D50A1E4D72CD00F549AA /* LaunchScreen.storyboard in Resources */,
+				44C9D64C1E4D752C00F549AA /* Images.xcassets in Resources */,
 				44C9D5071E4D72CD00F549AA /* Assets.xcassets in Resources */,
 				44C9D5051E4D72CD00F549AA /* Main.storyboard in Resources */,
 			);
@@ -146,14 +272,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		18A4BF769261DE8F5BDCFB0D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8461204DF445E38518B4F19A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E18D38BEB41FB6B90CB7C388 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		44C9D4F31E4D72CD00F549AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44C9D66A1E4D7AB400F549AA /* QDCommonGroupListViewController.m in Sources */,
 				44C9D5021E4D72CD00F549AA /* ViewController.m in Sources */,
 				44C9D4FF1E4D72CD00F549AA /* AppDelegate.m in Sources */,
+				44C9D6711E4D7AB400F549AA /* QDUIHelper.m in Sources */,
+				44C9D66D1E4D7AB400F549AA /* QDCommonViewController.m in Sources */,
+				44C9D66F1E4D7AB400F549AA /* QDTabBarViewController.m in Sources */,
+				44C9D66B1E4D7AB400F549AA /* QDCommonListViewController.m in Sources */,
+				44C9D6681E4D7AB400F549AA /* QMUIConfigurationTemplate.m in Sources */,
+				44C9D66E1E4D7AB400F549AA /* QDNavigationController.m in Sources */,
+				44C9D66C1E4D7AB400F549AA /* QDCommonTableViewController.m in Sources */,
+				44C9D6721E4D7AB400F549AA /* UIImageEffects.m in Sources */,
+				44C9D6691E4D7AB400F549AA /* QDCommonGridViewController.m in Sources */,
 				44C9D4FC1E4D72CD00F549AA /* main.m in Sources */,
+				44C9D6701E4D7AB400F549AA /* QDCommonUI.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +456,7 @@
 		};
 		44C9D50F1E4D72CD00F549AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7AEFD8F60A9F1186FAD0C48 /* Pods-QMUIFloatLayoutView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTT4HQ4F3H;
@@ -283,6 +469,7 @@
 		};
 		44C9D5101E4D72CD00F549AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C2B5970E39517892BE49B3D5 /* Pods-QMUIFloatLayoutView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = UTT4HQ4F3H;
@@ -312,6 +499,7 @@
 				44C9D5101E4D72CD00F549AA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
