@@ -31,7 +31,7 @@
     self.floatLayoutView.padding = UIEdgeInsetsMake(12, 12, 12, 12);
     self.floatLayoutView.itemMargins = UIEdgeInsetsMake(0, 0, 10, 10);
     self.floatLayoutView.minimumItemSize = CGSizeMake(69, 29);// 以2个字的按钮作为最小宽度
-    self.floatLayoutView.layer.borderWidth = PixelOne;
+    self.floatLayoutView.layer.borderWidth = PixelOne; //边框注释即消失
     self.floatLayoutView.layer.borderColor = UIColorSeparator.CGColor;
     [self.view addSubview:self.floatLayoutView];
     

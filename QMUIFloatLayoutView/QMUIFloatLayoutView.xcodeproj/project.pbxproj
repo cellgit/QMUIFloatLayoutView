@@ -25,7 +25,6 @@
 		44C9D6701E4D7AB400F549AA /* QDCommonUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6631E4D7AB400F549AA /* QDCommonUI.m */; };
 		44C9D6711E4D7AB400F549AA /* QDUIHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6651E4D7AB400F549AA /* QDUIHelper.m */; };
 		44C9D6721E4D7AB400F549AA /* UIImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6671E4D7AB400F549AA /* UIImageEffects.m */; };
-		44C9D6761E4D810700F549AA /* QDFloatLayoutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C9D6751E4D810700F549AA /* QDFloatLayoutView.m */; };
 		5E225ED394D33B8D05ECBC48 /* Pods_QMUIFloatLayoutView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 181B9D2213DD44202F212525 /* Pods_QMUIFloatLayoutView.framework */; };
 /* End PBXBuildFile section */
 
@@ -65,8 +64,6 @@
 		44C9D6661E4D7AB400F549AA /* UIImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIImageEffects.h; sourceTree = "<group>"; };
 		44C9D6671E4D7AB400F549AA /* UIImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIImageEffects.m; sourceTree = "<group>"; };
 		44C9D6731E4D7BF400F549AA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		44C9D6741E4D810700F549AA /* QDFloatLayoutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QDFloatLayoutView.h; sourceTree = "<group>"; };
-		44C9D6751E4D810700F549AA /* QDFloatLayoutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QDFloatLayoutView.m; sourceTree = "<group>"; };
 		C2B5970E39517892BE49B3D5 /* Pods-QMUIFloatLayoutView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUIFloatLayoutView.release.xcconfig"; path = "Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView.release.xcconfig"; sourceTree = "<group>"; };
 		D7AEFD8F60A9F1186FAD0C48 /* Pods-QMUIFloatLayoutView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QMUIFloatLayoutView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QMUIFloatLayoutView/Pods-QMUIFloatLayoutView.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -116,8 +113,6 @@
 				44C9D4FE1E4D72CD00F549AA /* AppDelegate.m */,
 				44C9D5001E4D72CD00F549AA /* ViewController.h */,
 				44C9D5011E4D72CD00F549AA /* ViewController.m */,
-				44C9D6741E4D810700F549AA /* QDFloatLayoutView.h */,
-				44C9D6751E4D810700F549AA /* QDFloatLayoutView.m */,
 				44C9D64D1E4D7AB400F549AA /* Modules */,
 				44C9D5031E4D72CD00F549AA /* Main.storyboard */,
 				44C9D64B1E4D752C00F549AA /* Images.xcassets */,
@@ -341,7 +336,6 @@
 				44C9D66B1E4D7AB400F549AA /* QDCommonListViewController.m in Sources */,
 				44C9D6681E4D7AB400F549AA /* QMUIConfigurationTemplate.m in Sources */,
 				44C9D66E1E4D7AB400F549AA /* QDNavigationController.m in Sources */,
-				44C9D6761E4D810700F549AA /* QDFloatLayoutView.m in Sources */,
 				44C9D66C1E4D7AB400F549AA /* QDCommonTableViewController.m in Sources */,
 				44C9D6721E4D7AB400F549AA /* UIImageEffects.m in Sources */,
 				44C9D6691E4D7AB400F549AA /* QDCommonGridViewController.m in Sources */,
