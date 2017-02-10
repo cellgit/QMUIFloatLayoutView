@@ -8,6 +8,13 @@
 
 #import "AppDelegate.h"
 
+#import "QDUIHelper.h"
+#import "QDCommonUI.h"
+#import "QDTabBarViewController.h"
+#import "QDNavigationController.h"
+#import "QMUIConfigurationTemplate.h"
+
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +23,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    // 启动QMUI的配置模板
+    [QMUIConfigurationTemplate setupConfigurationTemplate];
+    // 将全局的控件样式渲染出来
+    [QMUIConfigurationManager renderGlobalAppearances];
     return YES;
 }
 

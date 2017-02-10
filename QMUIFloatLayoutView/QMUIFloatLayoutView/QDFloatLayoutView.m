@@ -1,32 +1,29 @@
 //
-//  ViewController.m
+//  QDFloatLayoutView.m
 //  QMUIFloatLayoutView
 //
 //  Created by iosdeveloper on 2017/2/10.
 //  Copyright © 2017年 liuhongli. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "QDFloatLayoutView.h"
 #import <QMUIKit/QMUIKit.h>
-#import "QDCommonViewController.h"
 
-
-
-
-
-@interface ViewController ()
+@interface QDFloatLayoutView ()
 
 @property(nonatomic, strong) QMUIFloatLayoutView *floatLayoutView;
 
 @end
 
-@implementation ViewController
+@implementation QDFloatLayoutView
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    
-    self.title = @"QMUIFloatLayoutView";
-    
+//- (void)viewDidLoad {
+//    [super viewDidLoad];
+//    self.view.backgroundColor = [UIColor whiteColor];
+//}
+
+- (void)initSubviews {
+    [super initSubviews];
     self.floatLayoutView = [[QMUIFloatLayoutView alloc] init];
     self.floatLayoutView.padding = UIEdgeInsetsMake(12, 12, 12, 12);
     self.floatLayoutView.itemMargins = UIEdgeInsetsMake(0, 0, 10, 10);
@@ -44,11 +41,15 @@
         [self.floatLayoutView addSubview:button];
     }
     
+    
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
     UIEdgeInsets padding = UIEdgeInsetsMake(CGRectGetMaxY(self.navigationController.navigationBar.frame) + 36, 24, 36, 24);
     CGFloat contentWidth = CGRectGetWidth(self.view.bounds) - UIEdgeInsetsGetHorizontalValue(padding);
     CGSize floatLayoutViewSize = [self.floatLayoutView sizeThatFits:CGSizeMake(contentWidth, CGFLOAT_MAX)];
     self.floatLayoutView.frame = CGRectMake(padding.left, padding.top, contentWidth, floatLayoutViewSize.height);
-    
 }
 
 
